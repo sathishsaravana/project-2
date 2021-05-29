@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="./images/ico/favicon.ico" type="image/x-icon" />
+    <title>Home | Corlate</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark px-5 mx-3 fixed-top">
+        <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="" /></a>
+        <button
+          class="navbar-toggler d-lg-none"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavId"
+          aria-controls="collapsibleNavId"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item mx-4 active">
+              <a class="nav-link text-white" href="index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link text-white" href="about-us.html">About Us</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link text-white" href="service.html">Services</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link text-white" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item mx-4 dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                id="dropdownId"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Pages</a
+              >
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="blog.html">Blog Single</a>
+                <a class="dropdown-item" href="pricing.html">Pricing</a>
+                <a class="dropdown-item" href="404.html">404</a>
+                <a class="dropdown-item" href="shortcodes.html">Shortcodes</a>
+              </div>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link text-white" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link text-white" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- carousel-caption -->
+      <div id="carouselId" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselId" data-slide-to="1"></li>
+          <li data-target="#carouselId" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img src="./images/slider/bg1.jpg" alt="First slide" />
+            <img class="man d-none d-md-block" src="./images/slider/img1.png" alt="" />
+            <div class="carousel-caption text-left">
+              <h2 class="col-lg-5">Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+              <p class="col-lg-5 lead">
+                Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...
+              </p>
+              <button type="button" class="btn btn-danger ml-3">Read More</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/slider/bg2.jpg" alt="First slide" />
+            <img class="man d-none d-md-block" src="./images/slider/img2.png" alt="" />
+            <div class="carousel-caption text-left">
+              <h2 class="col-lg-5">Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+              <p class="col-lg-5 lead">
+                Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...
+              </p>
+              <button type="button" class="btn btn-danger ml-3">Read More</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/slider/bg3.jpg" alt="First slide" />
+            <img class="man d-none d-md-block" src="./images/slider/img3.png" alt="" />
+            <div class="carousel-caption text-left">
+              <h2 class="col-lg-5">Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+              <p class="col-lg-5 lead">
+                Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...
+              </p>
+              <button type="button" class="btn btn-danger ml-3">Read More</button>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!-- features -->
+      <div class="features bg-light py-4">
+        <div class="heading col-lg-6 text-center m-auto py-5">
+          <h1 class="font-weight-bold">Features</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut et dolore magna aliqua. Ut enim ad minim veniam
+          </p>
+        </div>
+        <div class="row justify-content-center px-4">
+          <div class="icon col-lg-4 text-center my-3">
+            <i class="fa fa-volume-up fa-3x my-2" aria-hidden="true"></i>
+            <h4>Fresh and Clean</h4>
+            <p class="px-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+          </div>
+          <div class="icon col-lg-4 text-center my-3">
+            <i class="fa fa-comments fa-3x my-2" aria-hidden="true"></i>
+            <h4>Retina ready</h4>
+            <p class="px-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+          </div>
+          <div class="icon col-lg-4 text-center my-3">
+            <i class="fa fa-cloud-download fa-3x my-2" aria-hidden="true"></i>
+            <h4>Easy to customize</h4>
+            <p class="px-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+          </div>
+          <div class="icon col-lg-4 text-center my-3">
+            <i class="fa fa-leaf fa-3x my-2" aria-hidden="true"></i>
+            <h4>Adipisicing elit</h4>
+            <p class="px-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+          </div>
+          <div class="icon col-lg-4 text-center my-3">
+            <i class="fa fa-cogs fa-3x my-2" aria-hidden="true"></i>
+            <h4>Sed do eiusmod</h4>
+            <p class="px-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+          </div>
+          <div class="icon col-lg-4 text-center my-3">
+            <i class="fa fa-heart fa-3x my-2" aria-hidden="true"></i>
+            <h4>Labore et dolore</h4>
+            <p class="px-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+          </div>
+        </div>
+      </div>
+      <!-- Recent Works -->
+      <div class="recent-works py-5">
+        <div class="heading col-lg-6 text-center m-auto py-5">
+          <h1 class="font-weight-bold">Recent Works</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut et dolore magna aliqua. Ut enim ad minim veniam
+          </p>
+        </div>
+        <div class="container">
+          <img class="col-lg-3 my-2" src="./images/portfolio/full/item1.png" alt="" /><img
+            class="col-lg-3 my-2"
+            src="./images/portfolio/full/item2.png"
+            alt=""
+          /><img class="col-lg-3 my-2" src="./images/portfolio/full/item3.png" alt="" /><img
+            class="col-lg-3 my-2"
+            src="./images/portfolio/full/item4.png"
+            alt=""
+          /><img class="col-lg-3 my-2" src="./images/portfolio/full/item5.png" alt="" /><img
+            class="col-lg-3 my-2"
+            src="./images/portfolio/full/item6.png"
+            alt=""
+          /><img class="col-lg-3 my-2" src="./images/portfolio/full/item7.png" alt="" /><img
+            class="col-lg-3 my-2"
+            src="./images/portfolio/full/item8.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <!-- Our Service -->
+      <div class="our-service">
+        <div class="heading col-lg-6 text-center m-auto py-5 text-white">
+          <h1 class="font-weight-bold">Our Service</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut et dolore magna aliqua. Ut enim ad minim veniam
+          </p>
+        </div>
+        <div class="container pb-5">
+          <div class="row pb-5">
+            <div class="col-lg-4 d-flex border bg-white p-4">
+              <img src="./images/services/services1.png" alt="" />
+              <div class="ml-3">
+                <h5 class="text-secondary">SEO Marketing</h5>
+                <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+              </div>
+            </div>
+            <div class="col-lg-4 d-flex border bg-white p-4">
+              <img src="./images/services/services2.png" alt="" />
+              <div class="ml-3">
+                <h5 class="text-secondary">SEO Marketing</h5>
+                <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+              </div>
+            </div>
+            <div class="col-lg-4 d-flex border bg-white p-4">
+              <img src="./images/services/services3.png" alt="" />
+              <div class="ml-3">
+                <h5 class="text-secondary">SEO Marketing</h5>
+                <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+              </div>
+            </div>
+            <div class="col-lg-4 d-flex border bg-white p-4">
+              <img src="./images/services/services4.png" alt="" />
+              <div class="ml-3">
+                <h5 class="text-secondary">SEO Marketing</h5>
+                <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+              </div>
+            </div>
+            <div class="col-lg-4 d-flex border bg-white p-4">
+              <img src="./images/services/services5.png" alt="" />
+              <div class="ml-3">
+                <h5 class="text-secondary">SEO Marketing</h5>
+                <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+              </div>
+            </div>
+            <div class="col-lg-4 d-flex border bg-white p-4">
+              <img src="./images/services/services6.png" alt="" />
+              <div class="ml-3">
+                <h5 class="text-secondary">SEO Marketing</h5>
+                <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- our-skills -->
+      <div class="our-skills bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 py-5">
+              <h4 class="py-3">Our Skills</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.
+              </p>
+              <h5 class="text-secondary">Graphic Design</h5>
+              <div class="progress my-3">
+                <div
+                  class="progress-bar progress-bar-striped progress-bar-animated bg-info text-right"
+                  role="progressbar"
+                  style="width: 85%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  85%
+                </div>
+              </div>
+              <h5 class="text-secondary">HTML</h5>
+              <div class="progress my-3">
+                <div
+                  class="
+                    progress-bar progress-bar-striped progress-bar-animated
+                    bg-success
+                    text-right
+                  "
+                  role="progressbar"
+                  style="width: 95%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  95%
+                </div>
+              </div>
+              <h5 class="text-secondary">CSS</h5>
+              <div class="progress my-3">
+                <div
+                  class="
+                    progress-bar progress-bar-striped progress-bar-animated
+                    bg-warning
+                    text-right
+                  "
+                  role="progressbar"
+                  style="width: 80%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  80%
+                </div>
+              </div>
+              <h5 class="text-secondary">WordPress</h5>
+              <div class="progress my-3">
+                <div
+                  class="
+                    progress-bar progress-bar-striped progress-bar-animated
+                    bg-danger
+                    text-right
+                  "
+                  role="progressbar"
+                  style="width: 90%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  90%
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 p-5">
+              <h4 class="py-3">Why People like us?</h4>
+              <div id="accordianId" role="tablist" aria-multiselectable="true">
+                <div class="card bg-dark">
+                  <div class="card-header" role="tab" id="section1HeaderId">
+                    <h5 class="mb-0">
+                      <a
+                        class="text-info nav-link"
+                        data-toggle="collapse"
+                        data-parent="#accordianId"
+                        href="#section1ContentId"
+                        aria-expanded="true"
+                        aria-controls="section1ContentId"
+                      >
+                        Our Philosopy
+                      </a>
+                    </h5>
+                  </div>
+                  <div
+                    id="section1ContentId"
+                    class="collapse in"
+                    role="tabpanel"
+                    aria-labelledby="section1HeaderId"
+                  >
+                    <div class="card-body row">
+                      <img class="col-lg-4" src="./images/accordion1.png" alt="" />
+                      <div class="text-justify text-white col-lg-8">
+                        <h4>Adipisicing elit</h4>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                          tempor incididunt ut labore
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card bg-dark">
+                  <div class="card-header" role="tab" id="section2HeaderId">
+                    <h5 class="mb-0">
+                      <a
+                        class="text-info nav-link"
+                        data-toggle="collapse"
+                        data-parent="#accordianId"
+                        href="#section2ContentId"
+                        aria-expanded="true"
+                        aria-controls="section2ContentId"
+                      >
+                        Predefine Layout
+                      </a>
+                    </h5>
+                  </div>
+                  <div
+                    id="section2ContentId"
+                    class="collapse in"
+                    role="tabpanel"
+                    aria-labelledby="section2HeaderId"
+                  >
+                    <div class="card-body text-white text-justify">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                      richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                      brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="accordianId" role="tablist" aria-multiselectable="true">
+                <div class="card bg-dark">
+                  <div class="card-header" role="tab" id="section3HeaderId">
+                    <h5 class="mb-0">
+                      <a
+                        class="text-info nav-link"
+                        data-toggle="collapse"
+                        data-parent="#accordianId"
+                        href="#section3ContentId"
+                        aria-expanded="true"
+                        aria-controls="section3ContentId"
+                      >
+                        Premium Plugin Included
+                      </a>
+                    </h5>
+                  </div>
+                  <div
+                    id="section3ContentId"
+                    class="collapse in"
+                    role="tabpanel"
+                    aria-labelledby="section3HeaderId"
+                  >
+                    <div class="card-body text-white text-justify">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                      richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                      brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
+                    </div>
+                  </div>
+                </div>
+                <div class="card bg-dark">
+                  <div class="card-header" role="tab" id="section4HeaderId">
+                    <h5 class="mb-0">
+                      <a
+                        class="text-info nav-link"
+                        data-toggle="collapse"
+                        data-parent="#accordianId"
+                        href="#section4ContentId"
+                        aria-expanded="true"
+                        aria-controls="section4ContentId"
+                      >
+                        Responsive Web Design
+                      </a>
+                    </h5>
+                  </div>
+                  <div
+                    id="section4ContentId"
+                    class="collapse in"
+                    role="tabpanel"
+                    aria-labelledby="section4HeaderId"
+                  >
+                    <div class="card-body text-white text-justify">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                      richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                      brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Our Partners -->
+      <div class="our-partners">
+        <div class="heading col-lg-6 text-center m-auto pt-5 text-white">
+          <h1 class="font-weight-bold">Our Partners</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut et dolore magna aliqua. Ut enim ad minim veniam
+          </p>
+        </div>
+        <div class="icon-partners text-center py-3">
+          <img class="m-5" src="./images/partners/partner1.png" alt="" /><img
+            class="m-5"
+            src="./images/partners/partner2.png"
+            alt=""
+          /><img class="m-5" src="./images/partners/partner3.png" alt="" /><img
+            class="m-5"
+            src="./images/partners/partner4.png"
+            alt=""
+          />
+          <img class="m-5" src="./images/partners/partner5.png" alt="" />
+        </div>
+      </div>
+      <!-- question -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 d-flex align-items-center">
+            <i class="fa fa-phone-square fa-4x" aria-hidden="true"></i>
+            <div class="ml-4 text-justify">
+              <h5>Have a question or need a custom quote?</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                incididunt ut labore dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation +0123 456 70 80
+              </p>
+            </div>
+          </div>
+          <img class="col-lg-3" src="./images/contact.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
